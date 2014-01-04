@@ -9,7 +9,7 @@ using Android.Media;
 
 namespace jp.nomula.pronama.lttimer
 {
-	[Activity (Label = "LTタイマー", MainLauncher = true)]
+	[Activity (Label = "LTタイマー", MainLauncher = true, ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
 	public class MainActivity : Activity
 	{
 		const int min = 1;
@@ -19,6 +19,7 @@ namespace jp.nomula.pronama.lttimer
 		{
 			base.OnCreate (bundle);
 			SetContentView (Resource.Layout.Main);
+
 
 			var numberPicker = FindViewById<NumberPicker> (Resource.Id.numberPicker);
 			numberPicker.MinValue = min;

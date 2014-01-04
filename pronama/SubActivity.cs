@@ -14,7 +14,7 @@ using System.Threading;
 
 namespace jp.nomula.pronama.lttimer
 {
-	[Activity (Label = "LTタイマー")]			
+	[Activity (Label = "LTタイマー", ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]			
 	public class SubActivity : Activity
 	{
 		const int interval = 1000;
