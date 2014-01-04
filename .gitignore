@@ -89,6 +89,7 @@ csx
 AppPackages/
 
 # Others
+Thumbs.db
 [Bb]in
 [Oo]bj
 sql
