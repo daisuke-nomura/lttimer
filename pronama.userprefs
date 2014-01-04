@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.lttimer MonoForAntroid.PreferredDevice="Nexus 4" AndroidDeviceId-Debug="037c7f8b215203da" />
+  <MonoDevelop.Ide.ItemProperties.lttimer MonoForAntroid.PreferredDevice="Nexus 4" AndroidDeviceId-Debug="037c7f8b215203da" AndroidDeviceId-Release="037c7f8b215203da" />
 </Properties>
