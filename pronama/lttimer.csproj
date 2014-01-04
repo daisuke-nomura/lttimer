@@ -60,30 +60,29 @@
     <AndroidResource Include="Resources\layout\Main.axml" />
     <AndroidResource Include="Resources\values\Strings.xml" />
     <AndroidResource Include="Resources\drawable\icon.png" />
-    <AndroidResource Include="Resources\raw\start.wav" />
-    <AndroidResource Include="Resources\raw\end.wav" />
-    <AndroidResource Include="Resources\raw\c0.wav" />
-    <AndroidResource Include="Resources\raw\c1.wav" />
-    <AndroidResource Include="Resources\raw\c10.wav" />
-    <AndroidResource Include="Resources\raw\c2.wav" />
-    <AndroidResource Include="Resources\raw\c3.wav" />
-    <AndroidResource Include="Resources\raw\c5.wav" />
-    <AndroidResource Include="Resources\raw\c6.wav" />
-    <AndroidResource Include="Resources\raw\c7.wav" />
-    <AndroidResource Include="Resources\raw\c8.wav" />
-    <AndroidResource Include="Resources\raw\c9.wav" />
-    <AndroidResource Include="Resources\raw\c4.wav" />
     <AndroidResource Include="Resources\layout\Sub.axml" />
-    <AndroidResource Include="Resources\raw\c30.wav" />
-    <AndroidResource Include="Resources\raw\c60.wav" />
     <AndroidResource Include="Resources\drawable\kei1.png" />
     <AndroidResource Include="Resources\drawable\kei0.png" />
     <AndroidResource Include="Resources\drawable\kei20.png" />
     <AndroidResource Include="Resources\drawable\kei30.png" />
+    <AndroidResource Include="Resources\raw\c0.mp3" />
+    <AndroidResource Include="Resources\raw\c1.mp3" />
+    <AndroidResource Include="Resources\raw\c2.mp3" />
+    <AndroidResource Include="Resources\raw\c3.mp3" />
+    <AndroidResource Include="Resources\raw\c4.mp3" />
+    <AndroidResource Include="Resources\raw\c5.mp3" />
+    <AndroidResource Include="Resources\raw\c6.mp3" />
+    <AndroidResource Include="Resources\raw\c7.mp3" />
+    <AndroidResource Include="Resources\raw\c8.mp3" />
+    <AndroidResource Include="Resources\raw\c9.mp3" />
+    <AndroidResource Include="Resources\raw\c10.mp3" />
+    <AndroidResource Include="Resources\raw\c30.mp3" />
+    <AndroidResource Include="Resources\raw\c60.mp3" />
+    <AndroidResource Include="Resources\raw\end.mp3" />
+    <AndroidResource Include="Resources\raw\start.mp3" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
-    <Folder Include="Resources\sound\" />
     <Folder Include="Resources\raw\" />
   </ItemGroup>
 </Project>
