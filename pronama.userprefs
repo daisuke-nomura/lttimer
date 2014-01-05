@@ -2,7 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.Workbench ActiveDocument="pronama\SubActivity.cs">
     <Files>
-      <File FileName="pronama\SubActivity.cs" Line="143" Column="6" />
+      <File FileName="pronama\SubActivity.cs" Line="17" Column="28" />
+      <File FileName="pronama\Resources\values\Strings.xml" Line="5" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
