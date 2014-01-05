@@ -37,7 +37,7 @@
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp" />
             <CheckBox
-                android:text="@string/soundon"
+                android:text="@string/voice_setting"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/checkBox1"
@@ -48,7 +48,7 @@
                 android:id="@+id/startButton"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/LTstart"
+                android:text="@string/lt_start"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp" />
         </LinearLayout>

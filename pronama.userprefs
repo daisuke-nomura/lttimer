@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="pronama\Properties\AndroidManifest.xml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="pronama\SubActivity.cs">
     <Files>
-      <File FileName="pronama\Properties\AndroidManifest.xml" Line="5" Column="12" />
+      <File FileName="pronama\SubActivity.cs" Line="143" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

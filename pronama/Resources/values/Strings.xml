@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="app_name">LTタイマー</string>
-	<string name="LTstart">LT スタート</string>
-	<string name="LTstop">一時停止</string>
-	<string name="LTresume">再開</string>
-	<string name="soundon">音声あり</string>
+	<string name="lt_start">LT スタート</string>
+	<string name="lt_pause">一時停止</string>
+	<string name="lt_resume">再開</string>
+	<string name="voice_setting">音声あり</string>
 	<string name="setLTduration">LTの時間を選んでね</string>
 	<string name="app_info">アプリ情報</string>
 	<string name="web_site">http://pronama.jp</string>

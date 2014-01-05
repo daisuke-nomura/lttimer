@@ -82,7 +82,7 @@ namespace jp.nomula.pronama.lttimer
 				{
 					//一時停止から再開する
 					timer.Start();
-					button.Text = GetString(Resource.String.LTstop);
+					button.Text = GetString(Resource.String.lt_pause);
 					pause = false;
 				}
 				else
@@ -90,7 +90,7 @@ namespace jp.nomula.pronama.lttimer
 					//一時停止する
 					timer.Stop();
 					timer.Close();
-					button.Text = GetString(Resource.String.LTresume);
+					button.Text = GetString(Resource.String.lt_resume);
 					pause = true;
 				}
 			};
@@ -124,7 +124,7 @@ namespace jp.nomula.pronama.lttimer
 			{
 				case 30: Blink(Resource.Drawable.kei30); break;
 				case 0:	Blink(Resource.Drawable.kei0); break;
-				default: Blink (Resource.Drawable.kei1); break;
+				default: Blink(Resource.Drawable.kei1); break;
 			}
 		}
 
@@ -141,7 +141,7 @@ namespace jp.nomula.pronama.lttimer
 		{
 			RunOnUiThread (() =>
 				{
-					var imageView = FindViewById<ImageView> (Resource.Id.imageView1);
+					var imageView = FindViewById<ImageView> (Resource.Id.imageView2);
 					imageView.SetImageResource (resId);
 				});
 		}
