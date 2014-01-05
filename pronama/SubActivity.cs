@@ -1,14 +1,8 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Timers;
 using Android.App;
-using Android.Content;
-using Android.Media;
 using Android.OS;
-using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
@@ -72,6 +66,14 @@ namespace jp.nomula.pronama.lttimer
 			};
 
 			timer.Start ();
+		}
+
+		protected override void OnDestroy()
+		{
+			base.OnDestroy();
+
+			timer.Stop();
+			timer.Close();
 		}
 
 		private void TickTimer(object sender, System.Timers.ElapsedEventArgs e)
