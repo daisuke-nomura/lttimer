@@ -99,6 +99,7 @@ namespace jp.nomula.pronama.lttimer
 
 				RunOnUiThread(() =>
 					{
+						//一時停止不可にする
 						var button = FindViewById<Button> (Resource.Id.pauseButton);
 						button.Enabled = false;
 					});
@@ -121,6 +122,7 @@ namespace jp.nomula.pronama.lttimer
 				case 8:	PlaySound(Resource.Raw.c8);	break;
 				case 9:	PlaySound(Resource.Raw.c9); break;
 				case 10: PlaySound(Resource.Raw.c10); break;
+				case 29: break;
 				case 30: PlaySound(Resource.Raw.c30); Blink(Resource.Drawable.kei30); break;
 				case 60: PlaySound(Resource.Raw.c60); break;
 				default: Blink(Resource.Drawable.kei1); break;

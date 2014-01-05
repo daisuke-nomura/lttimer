@@ -15,6 +15,7 @@ namespace jp.nomula.pronama.lttimer
 	public class BaseActivity : Activity
 	{
 		protected bool play = true;
+		int image = Resource.Drawable.kei1;
 
 		protected override void OnCreate (Bundle bundle)
 		{
@@ -51,11 +52,16 @@ namespace jp.nomula.pronama.lttimer
 
 		protected void Blink(int resId)
 		{
-			RunOnUiThread (() =>
-				{
+			//表示中画像と同じ場合は更新しない
+			if (image != resId)
+			{
+				image = resId;
+
+				RunOnUiThread (() => {
 					var imageView = FindViewById<ImageView> (Resource.Id.imageView2);
 					imageView.SetImageResource (resId);
 				});
+			}
 		}
 
 		protected string TrimDurationFormat(int duration)
