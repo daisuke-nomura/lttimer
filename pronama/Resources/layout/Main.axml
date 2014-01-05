@@ -23,11 +23,12 @@
                 android:text="@string/setLTduration"
                 android:id="@+id/textView1"
                 android:paddingTop="100dp"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingBottom="20dp"
                 android:fitsSystemWindows="true"
-                android:gravity="center_horizontal" />
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal" />
             <NumberPicker
                 android:id="@+id/numberPicker"
                 android:layout_width="match_parent"
@@ -35,22 +36,25 @@
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:paddingTop="10dp"
-                android:paddingBottom="10dp" />
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal" />
             <CheckBox
                 android:text="@string/voice_setting"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/checkBox1"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:checked="true" />
+                android:checked="true"
+                android:layout_gravity="center_horizontal" />
             <Button
                 android:id="@+id/startButton"
-                android:layout_width="fill_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/lt_start"
                 android:paddingTop="10dp"
-                android:paddingBottom="10dp" />
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal" />
         </LinearLayout>
         <ImageView
             android:src="@drawable/kei20"
