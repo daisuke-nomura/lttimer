@@ -21,6 +21,7 @@ namespace jp.nomula.pronama.lttimer
 			numberPicker.MinValue = (int)min;
 			numberPicker.MaxValue = (int)max;
 
+
 			var button = FindViewById<Button> (Resource.Id.startButton);
 			button.Click += (object sender, EventArgs e) => 
 			{
@@ -33,6 +34,15 @@ namespace jp.nomula.pronama.lttimer
 				intent.PutExtra(GetString(Resource.String.intent_soundon), chkBox.Checked);
 				StartActivity(intent);
 			};
+		}
+
+		protected override void OnStart ()
+		{
+			base.OnStart ();
+
+			//音声あり・なしを適用
+			var chkBox = FindViewById<CheckBox> (Resource.Id.checkBox1);
+			chkBox.Checked = play;
 		}
 	}
 }

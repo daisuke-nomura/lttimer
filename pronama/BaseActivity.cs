@@ -10,7 +10,7 @@ namespace jp.nomula.pronama.lttimer
 {	
 	public class BaseActivity : Activity
 	{
-		protected bool play = true;
+		protected static bool play = true;
 		int image = Resource.Drawable.kei1;
 
 		protected override void OnCreate (Bundle bundle)
