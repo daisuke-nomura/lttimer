@@ -11,4 +11,9 @@
 	<string name="intent_duration">jp.nomula.pronama.lttimer.duration</string>
 	<string name="intent_soundon">jp.nomula.pronama.lttimer.soundon</string>
 	<string name="duration_format">{0:D2}:{1:D2}</string>
+	<string name="back_confirm">終了しますか?</string>
+	<string name="cancel">キャンセル</string>
+	<string name="ok">OK</string>
+	<string name="no">いいえ</string>
+	<string name="yes">はい</string>
 </resources>

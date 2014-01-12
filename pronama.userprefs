@@ -1,15 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="pronama\MainActivity.cs">
-    <Files>
-      <File FileName="pronama\SubActivity.cs" Line="39" Column="6" />
-      <File FileName="pronama\BaseActivity.cs" Line="13" Column="19" />
-      <File FileName="pronama\MainActivity.cs" Line="46" Column="4" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.lttimer MonoForAntroid.PreferredDevice="Nexus 4" AndroidDeviceId-Debug="037c7f8b215203da" AndroidDeviceId-Release="037c7f8b215203da" />
+  <MonoDevelop.Ide.ItemProperties.lttimer MonoForAntroid.PreferredDevice="Galaxy Nexus" AndroidDeviceId-Debug="037c7f8b215203da" AndroidDeviceId-Release="01498F3815006006" MonoForAntroid.PreferredTheme="Theme.Holo" />
 </Properties>

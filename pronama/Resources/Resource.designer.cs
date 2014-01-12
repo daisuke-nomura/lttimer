@@ -201,6 +201,12 @@ namespace jp.nomula.pronama.lttimer
 			// aapt resource value: 0x7f050000
 			public const int app_name = 2131034112;
 			
+			// aapt resource value: 0x7f05000b
+			public const int back_confirm = 2131034123;
+			
+			// aapt resource value: 0x7f05000c
+			public const int cancel = 2131034124;
+			
 			// aapt resource value: 0x7f05000a
 			public const int duration_format = 2131034122;
 			
@@ -219,6 +225,12 @@ namespace jp.nomula.pronama.lttimer
 			// aapt resource value: 0x7f050001
 			public const int lt_start = 2131034113;
 			
+			// aapt resource value: 0x7f05000e
+			public const int no = 2131034126;
+			
+			// aapt resource value: 0x7f05000d
+			public const int ok = 2131034125;
+			
 			// aapt resource value: 0x7f050005
 			public const int setLTduration = 2131034117;
 			
@@ -227,6 +239,9 @@ namespace jp.nomula.pronama.lttimer
 			
 			// aapt resource value: 0x7f050007
 			public const int web_site = 2131034119;
+			
+			// aapt resource value: 0x7f05000f
+			public const int yes = 2131034127;
 			
 			static String()
 			{

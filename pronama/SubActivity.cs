@@ -76,6 +76,37 @@ namespace jp.nomula.pronama.lttimer
 			timer.Close();
 		}
 
+		public override bool OnKeyDown (Keycode keyCode, KeyEvent e)
+		{
+			if (keyCode == Keycode.Back)
+			{
+				ShowDialog (0);
+			}
+
+			return base.OnKeyDown (keyCode, e);
+		}
+
+		protected override Dialog OnCreateDialog (int id)
+		{
+			if (id == 0 && timer.Enabled)
+			{
+				var diag = new AlertDialog.Builder (this);
+				diag.SetTitle (GetString(Resource.String.app_name));
+				diag.SetMessage (GetString(Resource.String.back_confirm));
+				diag.SetNegativeButton (GetString(Resource.String.no), new EventHandler<Android.Content.DialogClickEventArgs> ((object sender, Android.Content.DialogClickEventArgs e) => {
+					//何もしない
+				}));
+				diag.SetPositiveButton (GetString(Resource.String.yes), new EventHandler<Android.Content.DialogClickEventArgs> ((object sender, Android.Content.DialogClickEventArgs e) => {
+					//アクティビティを終了
+					this.Finish();
+				}));
+
+				return diag.Create ();
+			}
+
+			return base.OnCreateDialog (id);
+		}
+
 		private void TickTimer(object sender, System.Timers.ElapsedEventArgs e)
 		{
 			//一時停止又はカウントが0以下
