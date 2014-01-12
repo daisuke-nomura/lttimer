@@ -16,13 +16,13 @@
             android:minWidth="25px"
             android:minHeight="25px"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:id="@+id/linearLayout2"
-            android:layout_marginLeft="10dp">
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical">
             <TextView
                 android:text="@string/setLTduration"
                 android:id="@+id/textView1"
-                android:paddingTop="100dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingBottom="20dp"
@@ -60,8 +60,7 @@
             android:src="@drawable/kei20"
             android:id="@+id/imageView1"
             android:layout_marginBottom="0.0dp"
-            android:maxHeight="200px"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="0.0dp"
             android:layout_gravity="right" />

@@ -6,7 +6,7 @@ using Android.Widget;
 
 namespace jp.nomula.pronama.lttimer
 {
-	[Activity (Label = "LTタイマー", ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait, MainLauncher = true)]
+	[Activity (Label = "LTタイマー", ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait, MainLauncher = true, HardwareAccelerated = false)]
 	public class MainActivity : BaseActivity
 	{
 		const ushort min = 1;

@@ -1,6 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="pronama\MainActivity.cs">
+    <Files>
+      <File FileName="pronama\SubActivity.cs" Line="39" Column="6" />
+      <File FileName="pronama\BaseActivity.cs" Line="13" Column="19" />
+      <File FileName="pronama\MainActivity.cs" Line="46" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
