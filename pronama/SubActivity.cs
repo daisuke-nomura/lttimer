@@ -27,6 +27,9 @@ namespace jp.nomula.pronama.lttimer
 			play = Intent.GetBooleanExtra (GetString(Resource.String.intent_soundon), true);
 			count = duration;
 
+			//スリープ不可
+			Window.AddFlags (WindowManagerFlags.KeepScreenOn);
+
 			//画面設定
 			var textView = FindViewById<TextView> (Resource.Id.textView2);
 			textView.Text = TrimDurationFormat(count);
@@ -70,6 +73,9 @@ namespace jp.nomula.pronama.lttimer
 
 		protected override void OnDestroy()
 		{
+			//スリープ許可	
+			Window.ClearFlags (WindowManagerFlags.KeepScreenOn);
+
 			base.OnDestroy();
 
 			timer.Stop();
