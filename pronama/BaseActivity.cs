@@ -30,6 +30,7 @@ namespace jp.nomula.pronama.lttimer
 			{
 				case 0:
 					var intent = new Intent (Intent.ActionView, Android.Net.Uri.Parse(GetString(Resource.String.web_site)));
+					intent.SetFlags (ActivityFlags.NewTask);
 					StartActivity (intent);
 					return true;
 				default:
