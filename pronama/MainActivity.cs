@@ -32,6 +32,7 @@ namespace jp.nomula.pronama.lttimer
 				var intent = new Intent(this, typeof(SubActivity));
 				intent.PutExtra(GetString(Resource.String.intent_duration), numberPicker.Value);
 				intent.PutExtra(GetString(Resource.String.intent_soundon), chkBox.Checked);
+				intent.SetFlags(ActivityFlags.NewTask);
 				StartActivity(intent);
 			};
 		}
